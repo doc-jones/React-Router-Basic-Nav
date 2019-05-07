@@ -1,5 +1,9 @@
 import React from 'react';
 
-const Home = () => <h1>Home</h1>;
+import { Route, Link } from 'react-router-dom';
 
+const Home = () => 
+<div className='home-wrapper'>
+    <h1>Home</h1>;
+</div>
 export default Home;
